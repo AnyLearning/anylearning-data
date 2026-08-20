@@ -15,6 +15,10 @@ two of the datasets below have no recorded licence yet.
 | Semantic segmentation | [Electron Microscopy Particle Segmentation](electron_microscopy_particle_segmentation/) | CC BY 4.0 |
 | Handpose classification | [American Sign Language Letters](american_sign_language/) | Public Domain |
 | Keypoint detection | [Generated Keypoint Stick Figures](keypoint_stick_figures/) | CC0 1.0 |
+| Tabular classification | [UCI Bank Marketing](structured/) | CC BY 4.0 |
+| Tabular regression | [UCI Concrete Compressive Strength](structured/) | CC BY 4.0 |
+| Text classification | [Banking77](structured/) | CC BY 4.0 |
+| Response evaluation | [TruthfulQA](structured/) | Apache 2.0 |
 
 The first four are the real datasets AnyLearning's test suite loads via `REAL_DATASETS` in
 `tests/fixtures/datasets.py`.
@@ -35,6 +39,11 @@ CDN:
 Every vertebral archive embeds its attribution and conversion notes. See the
 dataset README before using medical images; this is an engineering example,
 not a clinically validated dataset.
+
+The structured-data catalog is available at
+[`/datasets/structured/catalog-v1.json`](https://cdn.anylearning.nrl.ai/datasets/structured/catalog-v1.json).
+AnyLearning can install its real examples directly from the Dataset workspace;
+each entry carries its source, citation, license, size and SHA-256 checksum.
 
 ### Fetch on demand for engineering validation
 

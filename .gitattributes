@@ -1,0 +1,3 @@
+# Generated datasets retain their upstream-compatible CRLF byte representation
+# so the catalog and CDN checksums remain reproducible on every platform.
+structured/v1/*.csv -text -diff -whitespace
